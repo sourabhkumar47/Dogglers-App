@@ -3,15 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Sourabh Kumar/AndroidStudioProjects/Doggler App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1175" />
-        <entry key="..\:/Users/Sourabh Kumar/AndroidStudioProjects/Doggler App/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1175" />
-        <entry key="..\:/Users/Sourabh Kumar/AndroidStudioProjects/Doggler App/app/src/main/res/layout/activity_grid_list.xml" value="0.2" />
-        <entry key="..\:/Users/Sourabh Kumar/AndroidStudioProjects/Doggler App/app/src/main/res/layout/activity_horizontal_list.xml" value="0.18" />
-        <entry key="..\:/Users/Sourabh Kumar/AndroidStudioProjects/Doggler App/app/src/main/res/layout/activity_vertical_list.xml" value="0.2" />
-        <entry key="..\:/Users/Sourabh Kumar/AndroidStudioProjects/Doggler App/app/src/main/res/layout/grid_list_item.xml" value="0.2" />
-        <entry key="..\:/Users/Sourabh Kumar/AndroidStudioProjects/Doggler App/app/src/main/res/layout/vertical_horizontal_list_item.xml" value="0.25" />
-        <entry key="..\:/Users/Sourabh Kumar/AppData/Local/Android/Sdk/platforms/android-30/data/res/drawable/action_bar_divider.xml" value="0.1175" />
-        <entry key="..\:/Users/Sourabh Kumar/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout-car/car_preference.xml" value="0.2" />
+        <entry key="..\:/Users/Sourabh Kumar/AndroidStudioProjects/Doggler App/app/src/main/res/layout/vertical_horizontal_list_item.xml" value="0.1" />
       </map>
     </option>
   </component>
