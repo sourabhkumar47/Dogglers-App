@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Sourabh Kumar\\AndroidStudioProjects\\Doggler App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Sourabh Kumar\\.gradle\\caches\\transforms-3\\a71fbae72e0d4830381df66994616e85\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Sourabh Kumar\\.gradle\\caches\\transforms-3\\9385d78be46dd7d6c7d3509d216b2b4f\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Sourabh Kumar\\.gradle\\caches\\transforms-3\\88b5862f7f200365d213d1ed9065ddc4\\transformed\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Sourabh Kumar\\.gradle\\caches\\transforms-3\\43539b1ae1da48027b83f9f32f55e03c\\transformed\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

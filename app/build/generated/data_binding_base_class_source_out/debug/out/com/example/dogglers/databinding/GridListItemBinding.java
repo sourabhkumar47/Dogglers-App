@@ -4,20 +4,41 @@ package com.example.dogglers.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.dogglers.R;
 import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class GridListItemBinding implements ViewBinding {
   @NonNull
   private final MaterialCardView rootView;
 
-  private GridListItemBinding(@NonNull MaterialCardView rootView) {
+  @NonNull
+  public final ImageView dogimg;
+
+  @NonNull
+  public final TextView textAge;
+
+  @NonNull
+  public final TextView textHobbies;
+
+  @NonNull
+  public final TextView textName;
+
+  private GridListItemBinding(@NonNull MaterialCardView rootView, @NonNull ImageView dogimg,
+      @NonNull TextView textAge, @NonNull TextView textHobbies, @NonNull TextView textName) {
     this.rootView = rootView;
+    this.dogimg = dogimg;
+    this.textAge = textAge;
+    this.textHobbies = textHobbies;
+    this.textName = textName;
   }
 
   @Override
@@ -43,10 +64,38 @@ public final class GridListItemBinding implements ViewBinding {
 
   @NonNull
   public static GridListItemBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.dogimg;
+      ImageView dogimg = ViewBindings.findChildViewById(rootView, id);
+      if (dogimg == null) {
+        break missingId;
+      }
 
-    return new GridListItemBinding((MaterialCardView) rootView);
+      id = R.id.textAge;
+      TextView textAge = ViewBindings.findChildViewById(rootView, id);
+      if (textAge == null) {
+        break missingId;
+      }
+
+      id = R.id.textHobbies;
+      TextView textHobbies = ViewBindings.findChildViewById(rootView, id);
+      if (textHobbies == null) {
+        break missingId;
+      }
+
+      id = R.id.textName;
+      TextView textName = ViewBindings.findChildViewById(rootView, id);
+      if (textName == null) {
+        break missingId;
+      }
+
+      return new GridListItemBinding((MaterialCardView) rootView, dogimg, textAge, textHobbies,
+          textName);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
