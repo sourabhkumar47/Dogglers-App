@@ -46,7 +46,7 @@
             android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            />
+            tools:ignore="ImageContrastCheck" />
 
         <!-- TODO: Create a TextView for each of the following:
                 The dog's name
@@ -72,6 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="8dp"
+            android:paddingEnd="8dp"
             android:paddingTop="16dp"
             android:paddingBottom="8dp"
             tools:text="@string/dog_age"

@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ab28865-ccd0-4dc8-acc8-ba70ed6a2b3e" name="Default Changelist" comment="Added Screenshots">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="6ab28865-ccd0-4dc8-acc8-ba70ed6a2b3e" name="Default Changelist" comment="Updated README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/vertical_horizontal_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/vertical_horizontal_list_item.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.Tests in 'com.example.dogglers'">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Dogglers.app" />
       <option name="DEPLOY" value="true" />
@@ -263,7 +264,35 @@
       <option name="project" value="LOCAL" />
       <updated>1649494723400</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated README.md">
+      <created>1649494935939</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649494935939</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated README.md">
+      <created>1649495003689</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649495003689</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated README.md">
+      <created>1649495042187</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649495042187</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated README.md">
+      <created>1649495073094</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649495073094</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,6 +313,7 @@
     <MESSAGE value="Added UI - Horizontal,vertical and grid layout" />
     <MESSAGE value="Added Code of Program" />
     <MESSAGE value="Added Screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Screenshots" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>
